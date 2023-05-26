@@ -1,0 +1,189 @@
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    color: #444444;
+}
+
+
+
+a {
+    color: #ff4a17;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #ff724a;
+        text-decoration: none;
+    }
+
+
+.logo img {
+    max-height: 100px;
+}
+
+
+
+
+#welcome {
+    height: 100vh;
+    background: url("https://c1.wallpaperflare.com/preview/799/633/83/buildings-canada-photos-montreal.jpg") top center;
+    background-size: cover;
+}
+
+    #welcome:before {
+        content: "";
+        background: rgba(13, 20, 26, 0.7);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #welcome .hero-container {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #welcome h1 {
+        margin: 0 0 10px 0;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    #welcome h2 {
+        color: #eee;
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+
+    #welcome .btn-get-started {
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+        display: inline-block;
+        padding: 10px 35px 10px 35px;
+        border-radius: 4px;
+        transition: 0.5s;
+        color: #fff;
+        background: #ff4a17;
+        border: 2px solid #ff4a17;
+    }
+
+        #welcome .btn-get-started:hover {
+            border-color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+
+/*LOgin page*/
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.lgnbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+
+.container {
+    padding: 16px;
+    color: gold;
+}
+
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .lgnbtn {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0px;
+        color: white;
+    }
+
+    h1 {
+        margin: auto;
+        font-size: smaller;
+        font-weight: 200;
+        line-height: 0px;
+        text-transform: uppercase;
+        color: gold;
+    }
+}
+
+.frmalg {
+    margin: auto;
+    max-width: 400px;
+}
+
+#login {
+    height: auto;
+    background: url("https://images.unsplash.com/photo-1580820267682-426da823b514?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+}
+
+#register {
+    height: auto;
+    background: url("https://cdn.shoplightspeed.com/shops/645695/files/44940675/hero-banner-workshop.jpg") top center;
+    background-size: cover;
+}
+
+
+/*Manage bike*/
+#txtName{
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.suspenionType{
+    margin-bottom: 10px;
+}
+
+.suspenionType label{
+    margin-bottom: 10px;
+}
+
+.tireType label {
+        margin-bottom: 10px;
+    }
+
+
