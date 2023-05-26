@@ -1,0 +1,6 @@
+C:\Users\hauka\Desktop\lasalle college\4th semester\web\BikeFactory1\BikeFactory1.Models\bin\Debug\BikeFactory1.Models.dll
+C:\Users\hauka\Desktop\lasalle college\4th semester\web\BikeFactory1\BikeFactory1.Models\bin\Debug\BikeFactory1.Models.pdb
+C:\Users\hauka\Desktop\lasalle college\4th semester\web\BikeFactory1\BikeFactory1.Models\obj\Debug\BikeFactory1.Models.csproj.AssemblyReference.cache
+C:\Users\hauka\Desktop\lasalle college\4th semester\web\BikeFactory1\BikeFactory1.Models\obj\Debug\BikeFactory1.Models.csproj.CoreCompileInputs.cache
+C:\Users\hauka\Desktop\lasalle college\4th semester\web\BikeFactory1\BikeFactory1.Models\obj\Debug\BikeFactory1.Models.dll
+C:\Users\hauka\Desktop\lasalle college\4th semester\web\BikeFactory1\BikeFactory1.Models\obj\Debug\BikeFactory1.Models.pdb
